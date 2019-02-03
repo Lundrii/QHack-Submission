@@ -1,0 +1,39 @@
+{
+  "name": "qhacks-2019-backend",
+  "version": "1.0.0",
+  "description": "CircuitSafe",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsgc-peterson-e/qhacks-2019-backend.git"
+  },
+  "author": "Ethan Peterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsgc-peterson-e/qhacks-2019-backend/issues"
+  },
+  "homepage": "https://github.com/rsgc-peterson-e/qhacks-2019-backend#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.9.1",
+    "@tracespace/xml-id": "^4.0.0-next.15",
+    "body-parser": "^1.18.3",
+    "convert-svg-to-png": "^0.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.1",
+    "fs": "0.0.1-security",
+    "gerber-parser": "^1.1.1",
+    "pcb-stackup": "^3.0.0",
+    "pcb-stackup-core": "^3.0.0",
+    "python-shell": "^1.0.7",
+    "run-parallel": "^1.1.9",
+    "run-waterfall": "^1.1.6",
+    "svg-to-png": "^4.0.0",
+    "svg2img": "^0.5.0",
+    "whats-that-gerber": "^3.0.0"
+  }
+}
